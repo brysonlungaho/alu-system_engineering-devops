@@ -1,0 +1,7 @@
+#Configuration of ssh to be passwordless
+
+Host server01
+    HostName 44.211.139.95i
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-#Bash scripth that uses ssh to connect to server
+#Connecting to the server using an ssh key
 
-SERVER_IP="44.211.139.95"
-
+#ServerIP
+SERVER_IP= "44.211.139.95"
 ssh -i ~/.ssh/school ubuntu@server01
